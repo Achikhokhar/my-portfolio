@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arslan Shahid | Full Stack Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-white">
+                Arslan<span class="text-brand-500">.dev</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-brand-500 transition-colors">About</a>
+                <a href="#skills" class="hover:text-brand-500 transition-colors">Skills</a>
+                <a href="#experience" class="hover:text-brand-500 transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-brand-500 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-brand-500 transition-colors">Contact</a>
+            </div>
+            <a href="mailto:arslan.shahid395@gmail.com"
+                class="px-4 py-2 text-sm font-semibold text-slate-900 bg-brand-500 hover:bg-brand-600 rounded-lg transition-all shadow-lg shadow-brand-500/20">
+                Hire Me
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center pt-20 px-6 max-w-6xl mx-auto">
+        <div class="max-w-3xl">
+            <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-500 text-xs font-semibold mb-6">
+                <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+                Available for New Projects
+            </div>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-4">
+                Hi, I'm <span
+                    class="bg-gradient-to-r from-brand-500 to-emerald-300 bg-clip-text text-transparent">Arslan
+                    Shahid</span>
+            </h1>
+            <p class="text-xl sm:text-2xl font-medium text-slate-400 mb-6">
+                Full Stack Web Developer — Laravel | Vue.js | API Architecture
+            </p>
+            <p class="text-slate-400 leading-relaxed text-base mb-8 max-w-2xl">
+                2+ years of experience building scalable web applications, robust ERP modules, dynamic REST APIs, and
+                automated document/data workflows.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="#projects"
+                    class="px-6 py-3 font-semibold text-slate-900 bg-brand-500 hover:bg-brand-600 rounded-lg transition-all shadow-lg shadow-brand-500/20">
+                    View Projects
+                </a>
+                <a href="#contact"
+                    class="px-6 py-3 font-semibold text-white bg-slate-900 hover:bg-slate-800 border border-slate-700 rounded-lg transition-all">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 border-t border-slate-900 bg-slate-950/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-2">Technical Expertise</h2>
+            <p class="text-slate-400 mb-12">Tools, frameworks, and technologies I work with daily.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Backend Card -->
+                <div
+                    class="p-6 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-brand-500/50 transition-all">
+                    <div
+                        class="w-12 h-12 bg-brand-500/10 rounded-lg flex items-center justify-center text-brand-500 mb-4 text-xl">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Backend & APIs</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Laravel
+                            (PHP)</span>
+                        <span
+                            class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Node.js</span>
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">RESTful
+                            APIs</span>
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">MVC
+                            Architecture</span>
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">MySQL</span>
+                    </div>
+                </div>
+
+                <!-- Frontend Card -->
+                <div
+                    class="p-6 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-brand-500/50 transition-all">
+                    <div
+                        class="w-12 h-12 bg-brand-500/10 rounded-lg flex items-center justify-center text-brand-500 mb-4 text-xl">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Frontend Stack</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Vue.js</span>
+                        <span
+                            class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">shadcn-vue</span>
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Tailwind
+                            CSS</span>
+                        <span
+                            class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Bootstrap</span>
+                        <span
+                            class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">HTML5/CSS3</span>
+                    </div>
+                </div>
+
+                <!-- Automation & Tools -->
+                <div
+                    class="p-6 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-brand-500/50 transition-all">
+                    <div
+                        class="w-12 h-12 bg-brand-500/10 rounded-lg flex items-center justify-center text-brand-500 mb-4 text-xl">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Automation & Tools</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Web
+                            Scraping</span>
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Google
+                            API</span>
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Discord
+                            API</span>
+                        <span class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Git /
+                            GitHub</span>
+                        <span
+                            class="px-3 py-1 bg-slate-800 text-slate-300 rounded-md text-xs font-medium">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-2">Work History</h2>
+            <p class="text-slate-400 mb-12">Professional software development experience.</p>
+
+            <div class="relative pl-6 border-l border-slate-800 space-y-12">
+                <div class="relative">
+                    <span
+                        class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-brand-500 border-4 border-slate-950"></span>
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                        <h3 class="text-xl font-bold text-white">Web Developer <span class="text-brand-500">@
+                                Seerox</span></h3>
+                        <span class="text-xs font-medium px-2.5 py-1 rounded bg-slate-800 text-slate-400">2024 –
+                            Present</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-400 space-y-2 text-sm">
+                        <li>Developed and maintained core ERP modules (Employee Attendance, Payroll) using Laravel &
+                            Vue.js.</li>
+                        <li>Designed & integrated REST APIs including Google API & Discord API to automate
+                            cross-platform reporting.</li>
+                        <li>Built Node.js & Laravel scripts reducing manual effort and boosting operational efficiency.
+                        </li>
+                        <li>Managed codebases via Git/GitHub, conducting regular pull requests and API testing via
+                            Postman.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 border-t border-slate-900 bg-slate-950/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-2">Featured Projects</h2>
+            <p class="text-slate-400 mb-12">Real-world applications and automated systems built recently.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div
+                    class="p-6 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-slate-700 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-500">Full Stack
+                                System</span>
+                            <i class="fa-solid fa-folder-open text-slate-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Enterprise ERP System</h3>
+                        <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                            Built modular ERP features including Inventory, HR, and Payroll with Role-Based Access
+                            Control (RBAC). Integrated REST endpoints consumed by a Vue.js frontend.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-4 pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-400">Laravel</span> •
+                        <span class="text-xs text-slate-400">Vue.js</span> •
+                        <span class="text-xs text-slate-400">MySQL</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div
+                    class="p-6 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-slate-700 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-500">API &
+                                Automation</span>
+                            <i class="fa-solid fa-bolt text-slate-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Discord & Google API Tool</h3>
+                        <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                            Automated notification workflow connecting Discord channels with Google Sheets & Docs for
+                            project-level reporting and automated alerts.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-4 pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-400">Laravel</span> •
+                        <span class="text-xs text-slate-400">Google API</span> •
+                        <span class="text-xs text-slate-400">Discord API</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div
+                    class="p-6 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-slate-700 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-500">Node.js
+                                Scraper</span>
+                            <i class="fa-solid fa-file-code text-slate-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Document Data Scraper</h3>
+                        <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                            Web scraping engine extracting structured web data into Laravel, featuring dynamic shortcode
+                            replacements in generated documents.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-4 pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-400">Laravel</span> •
+                        <span class="text-xs text-slate-400">Node.js</span> •
+                        <span class="text-xs text-slate-400">Automation</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div
+                    class="p-6 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-slate-700 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-500">Frontend & UI</span>
+                            <i class="fa-solid fa-chart-line text-slate-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Sales & Inventory Manager</h3>
+                        <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                            Comprehensive dashboard featuring real-time stock tracking, sales recording, and detailed
+                            analytical reports with shadcn-vue UI components.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-4 pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-400">Laravel</span> •
+                        <span class="text-xs text-slate-400">Vue.js</span> •
+                        <span class="text-xs text-slate-400">shadcn-vue</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section id="contact" class="py-20 px-6 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Let's Work Together</h2>
+            <p class="text-slate-400 mb-8 max-w-xl mx-auto">
+                Currently open for full-stack web development opportunities, API integrations, and backend backend
+                architecture roles.
+            </p>
+            <div class="flex flex-wrap justify-center gap-6 mb-12">
+                <a href="mailto:arslan.shahid395@gmail.com"
+                    class="flex items-center gap-2 px-5 py-3 bg-slate-900 hover:bg-slate-800 border border-slate-800 rounded-xl text-slate-200 font-medium transition-all">
+                    <i class="fa-solid fa-envelope text-brand-500"></i> arslan.shahid395@gmail.com
+                </a>
+                <a href="tel:+923117187979"
+                    class="flex items-center gap-2 px-5 py-3 bg-slate-900 hover:bg-slate-800 border border-slate-800 rounded-xl text-slate-200 font-medium transition-all">
+                    <i class="fa-solid fa-phone text-brand-500"></i> +92 311-7187979
+                </a>
+            </div>
+            <p class="text-xs text-slate-600">
+                Designed & Built By Arslan Shahid • Faisalabad, Pakistan
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
